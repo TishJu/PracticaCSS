@@ -1,0 +1,373 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fondoColor{
+    background-color: #ffffff;
+    content: "";
+    display: table;
+    clear: both;
+    float: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;           
+}
+
+
+.header {
+    background-color: rgb(255, 255, 255);
+    text-align: center; 
+}
+
+
+.sectionheader {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    padding: 2px 20px 2px 20px;
+    
+}
+.sectionunoheader {
+    float: left;
+    width: 45%;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    
+   
+}
+.sectiondosheader {
+    float: left;    
+    width: 55%;
+    height: 100px;
+    background-color: #caecf7;
+    text-align: center;
+}
+
+
+.section1 {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    background: rgb(255, 255, 255); 
+}
+.section1izquierdo{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    
+   
+}
+.icono1{
+    background-image: url("../img/icon-amarillo1.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.icono2{
+    background-image: url("../img/icon-amarillo2.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.icontime{
+    background-image: url("../img/icon-blue-time.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.iconlocation{
+    background-image: url("../img/icon-blue-location.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.icondate{
+    background-image: url("../img/icon-blue-date.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.iconedit{
+    background-image: url("../img/icon-blue-edit.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.section1derecho {
+    float:right;
+    height: 500px;
+    width: 550px;
+    background-image: url("../img/foto1.JPG");
+    background-color: rgb(255, 255, 255);
+   
+    background-repeat: no-repeat;
+}
+
+
+.section2 {
+    content: "";
+    display: table;
+    clear: both;
+    width: 75%;
+    background: rgba(212, 211, 212, 0.267);
+    border-radius: 8px;    
+    
+    opacity: 0.6;
+}
+
+
+
+.section3 {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border:0;
+    
+       
+}
+.sectionAstrazeneca {
+    float:left;
+    height: 150px;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    border:0;
+   
+}
+.sectionSinovac {
+    float: left;
+    height: 150px;
+    width: 25%;
+    
+    background: rgb(255, 255, 255);
+
+   
+}
+.sectionPfizer {
+    float: left;
+    height: 150px;
+    width: 25%;
+    background: rgb(255, 255, 255);
+
+    
+}
+.sectionmoderna {
+    float: left;
+    height: 150px;
+    width: 25%;
+    background: rgb(255, 255, 255);
+
+    
+}
+
+.iconselect{
+    background-image: url("../img/icono-blue-select.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.iconescudo{
+    background-image: url("../img/icon-blue-escudo.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.iconusers{
+    background-image: url("../img/icono-blue-users.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.icongroup{
+    background-image: url("../img/icono-blue-group.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    column-gap: 30px;
+  }
+
+.container>* {
+    margin: 5px 5px;
+    flex: auto;
+    border: 1px solid rgba(172, 172, 172, 0.37);
+    background-color: rgba(243, 243, 243, 0.534);
+    border-radius: 8px;
+  
+}
+  
+
+
+ 
+.section4 {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border:0;    
+}
+.section4izquierdo {
+    float:left;
+    height: 500px;
+    width: 40%;
+    background-image: url("../img/foto2.JPG");
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+}
+
+.section4derecho {
+    float:right;
+    height: 100%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+.caja1 {
+    margin:25px auto 50px auto;	
+    border:1px solid #d9d9d9;
+    height:30px;
+    overflow: hidden;
+    width: 90%;
+    position:relative;
+    border-radius: 8px;
+    
+}
+.caja1::after{
+	content:"\025be";
+	display:table-cell;
+	padding-top:7px;
+	text-align:center;
+	width:30px;
+	height:30px;
+	background-color:#d9d9d9;
+	position:absolute;
+	top:0;
+	right:0px;	
+	pointer-events: none;
+    
+}
+
+.iconselect1{
+    background-image: url("../img/icon-blue-select1.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+.iconselect2{
+    background-image: url("../img/icon-blue-select01.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+.iconselect3{
+    background-image: url("../img/icon-blue-select2.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+.iconselect4{
+    background-image: url("../img/icon-blue-select3.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+.iconselect5{
+    background-image: url("../img/icon-blue-select4.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+
+
+.section5 {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    border:0;    
+}
+.section5izquierdo {
+    float:left;
+    height: 100%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+.section5derecho{
+    float:right;
+    height: 500px;
+    width: 40%;
+    background-image: url("../img/foto3.JPG");
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    margin-top: 65px;
+}
+.iconcall{
+    background-image: url("../img/icon-blue-call.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+.iconchat{
+    background-image: url("../img/icon-blue-chat.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+.iconvideo{
+    background-image: url("../img/icon-blue-video.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+.iconmessage{
+    background-image: url("../img/icon-blue-message.JPG");
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+
+.sectionfooter {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    background: rgb(151, 190, 240);
+    
+    
+}
+.sectionfooterizquierdo{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: rgb(151, 190, 240);
+    text-align: left;
+    align-content: left;
+    
+   
+}
+.sectionfooterderecho {
+    float: right;    
+    width: 50%;
+    height: 100%;
+    background: rgb(151, 190, 240);
+    text-align: right;
+    align-content: right;
+}
+
+
+.footer {
+    
+    background: rgb(151, 190, 240);
+    padding: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+    font-family: 'Lucida Sans Unicode';
+}

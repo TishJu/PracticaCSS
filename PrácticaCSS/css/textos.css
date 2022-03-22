@@ -1,0 +1,54 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.izquierda{
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(29, 57, 194);
+}
+.izquierdagris{
+    text-align: left;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(86, 87, 88);
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.derecha{
+    text-align: right;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(22, 45, 80);
+}
+.derechagris{
+    text-align: right;
+    font-weight: 700;
+    font-size: 10px;
+    color: rgb(86, 87, 88);
+    text-align: right;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+
+.derecha2{
+    text-align: right;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(22, 45, 80);
+}
+.derechagris2{
+    text-align: right;
+    
+    font-size: 10px;
+    color: rgb(128, 128, 128);
+    text-align: right;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+

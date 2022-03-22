@@ -1,0 +1,219 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 70px 30px;
+    color: rgb(104, 104, 104);
+    /*border: 3px solid purple;*/
+  }
+.thtd {
+    padding: 20px;
+} 
+.button {
+    background-color: #13237e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+} 
+
+.table1 {
+    table-layout: fixed;
+    width: 90%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    color: rgb(104, 104, 104);
+    margin: 10px;
+    align-content: center;
+    /*border: 3px solid purple;*/
+  }
+.thtd1 {
+    padding: 10px;
+    border-spacing: 0px;
+   
+}
+.thtdicon {
+  padding: 10px;
+  border-spacing: 0px;
+ 
+}
+
+.table2 {
+    float: center; 
+    width: 100%;
+    border-spacing: 15px 15px;
+    color: rgb(104, 104, 104);
+    margin: 10px;
+    align-content: center;
+  }
+.thtd2 {
+    padding: 5px;
+    border-spacing: 0px;
+   
+}
+
+.h1 {
+    color: #071d47f6;
+    font-family: verdana;
+    font-size: 50px;
+  
+}
+.h1p {
+    color: #071d47f6;
+    font-family: verdana;
+    font-size: 25px;
+  
+}
+.p  {
+    color: rgb(104, 104, 104);
+    font-family: courier;
+    font-size: 16px;
+}
+
+.p2 {
+    color: rgb(104, 104, 104);
+   
+    font-size: 16px;
+    text-align: left;
+}
+.h1container{
+   color: #071d47f6;
+    font-family: verdana;
+    font-size: 15px;
+    
+}
+.pcontainer{
+  color: rgb(104, 104, 104);
+  font-family: verdana;
+  font-size: 15px;
+  text-align: justify;
+  
+}
+
+
+
+.img1nop {
+  background-image: url("../PrácticaCSS/img/foto1.JPG");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+  align-content: center;
+  
+}
+.section1derechonop {
+  float:right;
+  height: 500px;
+  width: 550px;
+  background-image: url("../PrácticaCSS/img/foto1.JPG");
+  background-color: rgb(255, 255, 255);
+ 
+  background-repeat: no-repeat;
+}
+.imgaztra {
+  float: center;    
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/aztra.JPG");  
+  background-repeat: no-repeat;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+ 
+  border: 0;
+}
+.imgsinovac {
+  float: center;    
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/sinovac.JPG");  
+  background-repeat: no-repeat;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  
+  align-content: center;
+  border: 0;
+}
+.imgpfizer {
+  float: center;    
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/pfizer.JPG");  
+  background-repeat: no-repeat;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  
+  align-content: center;
+  border: 0;
+  
+}
+.imgmoderna {
+  float: center;    
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/moderna.JPG");  
+  background-repeat: no-repeat; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  
+  align-content: center;
+  border: 0;
+  
+}
+.div {
+    float: left;    
+    width: 50%;
+    height: 100%;
+    background: rgb(151, 190, 240);
+    text-align: left;
+    align-content: left;
+    margin: 40px;
+}
+
+.divcontainer {
+  float: center;    
+  width: 90%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  align-content: right;
+  margin-left: 35px;
+}
+
+.select {
+  
+  border: none;
+  font-size: 15px;
+  height: 30px;
+  padding: 5px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+.select:focus{ outline: none;}
+
+
+
+
+
